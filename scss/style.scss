@@ -480,6 +480,22 @@ footer {
   }
 }
 
+/////////////////////// Tact //////////////////////////
+#tact {
+  background: url(../img/path.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+
+  #scripture {
+    .display-2 {
+      font-size: 4.5em;
+    }
+  }
+}
+
 ////////////////////  Contact //////////////////////////
 .bg-light {
   padding-top: 3%;
@@ -780,6 +796,12 @@ footer {
     }
   }
 
+  #a {
+    h2 {
+      font-weight: 800;
+    }
+  }
+
   #b {
     .display-1 {
       margin-top: -5%;
@@ -791,17 +813,18 @@ footer {
     }
 
     .lead {
-      font-size: 1.2em;
+      font-size: 1.8em;
     }
 
     .btn {
-      margin-left: 2%;
+      margin-left: 1%;
       margin-top: 3%;
       margin-bottom: 3%;
     }
   }
 
   #scripture-b {
+    margin-top: 8%;
     .display-2 {
       font-size: 3em;
     }
