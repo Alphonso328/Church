@@ -1,0 +1,844 @@
+$dark-overlay: rbga(0, 0, 0, 0.8);
+
+.nav-link {
+  color: #fff;
+  margin-left: 1.5em;
+  border-top: #fff solid 2px;
+  border-bottom: #fff solid 2px;
+}
+
+.nav-item {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Eczar", sans-serif;
+  font-size: 1.5em;
+  margin-right: 3.5em;
+
+  a:hover {
+    color: #fff;
+  }
+}
+
+.overlay {
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background: #0000008a;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin: 0%;
+}
+
+////////////////////  Top  /////////////////////////////
+#Top {
+  background: url(../img/light.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+////////////////////  Scripture  ///////////////////////
+#scripture {
+  .display-2 {
+    font-weight: bold;
+  }
+}
+
+////////////////////  Section A  ///////////////////////
+#a {
+  background-color: #fff;
+  font-family: "Eczar", serif;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 5%;
+
+  h2 {
+    color: #0000ff;
+    padding-top: 3%;
+  }
+
+  .lead {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #63638f;
+  }
+
+  button {
+    margin-bottom: 10%;
+  }
+}
+
+////////////////////  Section b  ///////////////////////
+#b {
+  background: url(../img/path.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+
+  .display-1 {
+    text-align: left;
+    color: #d8b90d;
+    font-weight: bold;
+  }
+
+  .row {
+    padding-top: 12%;
+  }
+
+  h2,
+  h1 {
+    text-align: left;
+    line-height: 1.5em;
+    font-weight: bolder;
+    color: #d8b90d;
+  }
+
+  .lead {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+////////////////////  Section C  ///////////////////////
+#c {
+  font-family: "Eczar", serif;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+  .lead {
+    color: #000;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+    padding-top: 5%;
+  }
+}
+
+////////////////////  Our Belief  //////////////////////
+#Belief {
+  background: url("../img/word.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+
+  .display-4 {
+    font-family: "Eczar", sans-serif;
+    font-size: 3.5em;
+    margin-top: 1.5em;
+    font-weight: bold;
+  }
+}
+
+#scripture-b {
+  padding-top: 8%;
+  .display-2 {
+    font-size: 3.5em;
+    font-weight: 300;
+  }
+}
+
+////////////////////  Info  //////////////////////////
+#info {
+  background: url(../img/child.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  // height: 110vh;
+  // width: 100%;
+
+  .display-4 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    color: #4b4bf5;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: #d8b90d;
+  }
+
+  p {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+////////////////////  Middle  //////////////////////////
+#middle {
+  .display-4 {
+    padding-top: 8%;
+    padding-bottom: 3%;
+  }
+
+  .lead {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Eczar", sans-serif;
+  }
+}
+
+////////////////////  Daily  //////////////////////////
+#daily {
+  background: url("../img/sincerely.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  // height: 100vh;
+  // width: 100%;
+
+  .display-4 {
+    padding-top: 3%;
+    font-size: 4.5em;
+    color: #4b4bf5;
+  }
+
+  h2 {
+    color: #d8b90d;
+  }
+
+  p {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #d8b90d;
+    font-size: 1.5em;
+  }
+
+  .lead {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+////////////////////  Giving  //////////////////////////
+#Giving {
+  background: url("../img/plant.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 110vh;
+  width: 100%;
+
+  .display-4 {
+    font-family: "Eczar", sans-serif;
+    font-size: 3.5em;
+    margin-top: 1.5em;
+    font-weight: bold;
+  }
+}
+
+.active {
+  color: #000;
+}
+
+.fa {
+  margin-left: 2em;
+  color: #311151;
+}
+
+.display-4 {
+  font-weight: 800;
+}
+
+.dark-overlay {
+  position: absolute;
+  background-color: $dark-overlay;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#tithe {
+  padding-top: 8%;
+  padding-bottom: 5%;
+  text-align: center;
+
+  .display-4 {
+    color: #4b4bf5;
+    padding-bottom: 5%;
+  }
+
+  h1 {
+    color: #d8b90d;
+    padding-bottom: 3%;
+  }
+
+  .lead {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
+
+#wear {
+  background-color: #4b4bf5;
+
+  .display-4 {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: left;
+  }
+
+  .lead {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
+
+////////////////////  About  //////////////////////////
+#About {
+  background: url("../img/group.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+
+  .display-4 {
+    font-family: "Eczar", sans-serif;
+    font-size: 3.5em;
+    margin-top: 1.5em;
+    font-weight: bold;
+  }
+}
+
+#half {
+  text-align: center;
+  h1 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  h2 {
+    padding-bottom: 3%;
+  }
+
+  .lead {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
+
+#pastors {
+  background-color: #d8b90d;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  // height: 70vh;
+  // width: 100%;
+  color: #0000ff;
+
+  h1,
+  h2 {
+    padding-top: 5%;
+  }
+
+  .lead {
+    padding-top: 3%;
+    color: #0000ff;
+    font-size: 1.5em;
+  }
+}
+
+////////////////////  Footer  //////////////////////////
+footer {
+  background-color: #070777;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // background-color: #1a1818;
+
+  p {
+    color: #fff;
+    line-height: 25px;
+  }
+
+  h2,
+  h3 {
+    color: #d8b90d;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .footer-top {
+    padding: 80px 0;
+  }
+
+  .segment-one h3 {
+    font-family: "Times New Roman", Times, serif;
+    color: #d8b90d;
+    letter-spacing: 3px;
+    margin: 10px 0;
+  }
+
+  .segment-two {
+    color: #d8b90d;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+
+  .segment-two h2:before {
+    content: "|";
+    color: #0000ff;
+    padding-right: 10px;
+  }
+
+  .segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .segment-two ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+  }
+
+  .segment-two ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .segment-three h2 {
+    color: #d8b90d;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+
+  .segment-three h2:before {
+    content: "|";
+    color: #0000ff;
+    padding-right: 10px;
+  }
+
+  .segment-three a {
+    background: #d8b90d;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    // .fa {
+    //   color: #e627ac;
+    // }
+  }
+
+  .segment-three a i {
+    font-size: 20px;
+    color: #0000ff;
+    padding: 10px 12px;
+  }
+
+  .segment-four h2 {
+    color: #d8b90d;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+
+  .segment-three h2:before {
+    content: "|";
+    color: #0000ff;
+    padding-right: 10px;
+  }
+
+  .segment-four form input[type="submit"] {
+    background: #d8b90d;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    font-weight: bold;
+    color: #0000ff;
+    text-transform: uppercase;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.3em;
+    background: #d8b90d;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 0%;
+  }
+}
+
+////////////////////  Contact //////////////////////////
+.bg-light {
+  padding-top: 3%;
+  height: 100%;
+}
+
+.get_in_touch {
+  max-width: 80em;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+.get_in_touch .title {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 48px;
+  padding-bottom: 20px;
+  color: #0000ff;
+  background-image: linear-gradient(150deg, #d8b90d 11.9%, #0000ff 99.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.get_in_touch .contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.get_in_touch .contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #d8b90d;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.get_in_touch .contact-form .input-text:focus + .label,
+.get_in_touch .contact-form .input-text.not-empty + .label {
+  transform: translateY(-24px);
+}
+.get_in_touch .contact-form .input-text:focus {
+  outline: none;
+}
+.get_in_touch .contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000;
+  font-weight: bold;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+.get_in_touch .contact-form .submit-btn {
+  display: inline-block;
+  background-image: linear-gradient(150deg, #0000ff 11.9%, #d8b90d 99.1%);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 226px) {
+  #scripture {
+    .display-2,
+    .display-4 {
+      font-size: 2.5em;
+    }
+  }
+
+  #b {
+    .display-1 {
+      font-size: 2.5em;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    .lead {
+      font-size: 1.2em;
+    }
+
+    .btn {
+      margin-left: 2%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+  }
+
+  #scripture-b {
+    .display-2 {
+      font-size: 2em;
+    }
+
+    .display-4 {
+      font-size: 2em;
+    }
+  }
+
+  #daily {
+    .display-4 {
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+  }
+
+  #middle {
+    .display-4 {
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  #info {
+    .display-4 {
+      font-size: 2.5em;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .nav-item {
+    font-size: 1em;
+  }
+  #scripture {
+    .display-2,
+    .display-4 {
+      margin-top: -5%;
+      font-size: 2.3em;
+    }
+  }
+
+  #b {
+    .display-1 {
+      font-size: 2.5em;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    .lead {
+      font-size: 1.2em;
+    }
+
+    .btn {
+      margin-left: 2%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+  }
+
+  #scripture-b {
+    .display-2 {
+      margin-top: -5%;
+      font-size: 2em;
+    }
+
+    .display-4 {
+      font-size: 2em;
+    }
+  }
+
+  #daily {
+    .display-4 {
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    .lead {
+      font-size: 1.3em;
+    }
+  }
+
+  #middle {
+    .display-4 {
+      font-size: 2.8em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  #info {
+    .display-4 {
+      font-size: 2.3em;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .nav-item {
+    font-size: 1.2em;
+  }
+  #scripture {
+    .display-2,
+    .display-4 {
+      margin-top: -5%;
+      font-size: 2em;
+    }
+  }
+
+  #b {
+    .display-1 {
+      font-size: 3.5em;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .lead {
+      font-size: 1.2em;
+    }
+
+    .btn {
+      margin-left: 2%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+  }
+
+  #scripture-b {
+    .display-2 {
+      font-size: 2em;
+    }
+
+    .display-4 {
+      font-size: 2em;
+    }
+  }
+
+  #daily {
+    .display-4 {
+      font-size: 3.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  #middle {
+    .display-4 {
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  #info {
+    .display-4 {
+      font-size: 2.5em;
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .nav-item {
+    font-size: 1.5em;
+  }
+  #scripture {
+    .display-2,
+    .display-4 {
+      font-size: 3em;
+    }
+
+    .display-2 {
+      margin-top: 2%;
+      margin-bottom: 5%;
+    }
+  }
+
+  #b {
+    .display-1 {
+      margin-top: -5%;
+      font-size: 4.5em;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    .lead {
+      font-size: 1.2em;
+    }
+
+    .btn {
+      margin-left: 2%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+  }
+
+  #scripture-b {
+    .display-2 {
+      font-size: 2em;
+    }
+
+    .display-4 {
+      font-size: 2em;
+    }
+  }
+
+  #daily {
+    .display-4 {
+      font-size: 3.5em;
+    }
+
+    p {
+      font-size: 1.8em;
+    }
+  }
+
+  #middle {
+    .display-4 {
+      margin-top: -5%;
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  #info {
+    .display-4 {
+      font-size: 3em;
+    }
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}
