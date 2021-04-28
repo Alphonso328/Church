@@ -330,6 +330,16 @@ footer {
     line-height: 80px;
     margin: 0%; }
 
+#tact {
+  background: url(../img/path.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%; }
+  #tact #scripture .display-2 {
+    font-size: 4.5em; }
+
 .bg-light {
   padding-top: 3%;
   height: 100%; }
@@ -504,21 +514,25 @@ footer {
   #scripture .display-2 {
     margin-top: 2%;
     margin-bottom: 5%; }
+  #a h2 {
+    font-weight: 800; }
   #b .display-1 {
     margin-top: -5%;
     font-size: 4.5em; }
   #b h1 {
     font-size: 2.5em; }
   #b .lead {
-    font-size: 1.2em; }
+    font-size: 1.8em; }
   #b .btn {
-    margin-left: 2%;
+    margin-left: 1%;
     margin-top: 3%;
     margin-bottom: 3%; }
-  #scripture-b .display-2 {
-    font-size: 3em; }
-  #scripture-b .display-4 {
-    font-size: 2em; }
+  #scripture-b {
+    margin-top: 8%; }
+    #scripture-b .display-2 {
+      font-size: 3em; }
+    #scripture-b .display-4 {
+      font-size: 2em; }
   #daily .display-4 {
     font-size: 3.5em; }
   #daily p {
